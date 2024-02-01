@@ -390,6 +390,12 @@ p {
   width: 70%;
 }
 
+    .content-slide video {
+        width: 70%; /* Set the width to 100% to make it responsive */
+        max-width: 600px; /* Set a maximum width if needed */
+        height: auto; /* Maintain the aspect ratio */
+    }
+
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent #ff6363 !important;
   right: 45px !important;
