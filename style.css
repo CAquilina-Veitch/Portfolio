@@ -420,7 +420,7 @@ p {
     text-align:left;
 }
 .centerMiddle{
-    float:none;
+    float:inline-start;
 }
 .b{
     font-weight:bold;
