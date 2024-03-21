@@ -388,6 +388,7 @@ p {
 
     .content-slide img {
         /*width: 70%;*/
+        width:100%;
     }
 
     .content-slide video {
@@ -401,16 +402,33 @@ p {
     align-items: center;
 }
 
+.leftrightcontainer {
+}
+
+
+
+
 .leftBig {
     float: left;
     padding-left:10%;
-    width: 60%
+    width: 60%;
+    
 }
+.video-container {
+}
+
 
 .rightLittle {
     width: 30%;
     padding: 40px;
+    padding-top:0px;
+    padding-bottom:0px;
+    /*   */
     float: left;
+    margin-right: 10%;
+}
+.rightLittle h1{
+    margin-top:0px;
 }
 .rightLittle p {
     text-align:left;
@@ -420,7 +438,7 @@ p {
     text-align:left;
 }
 .centerMiddle{
-    float:inline-start;
+    text-align:center;
 }
 .b{
     font-weight:bold;
