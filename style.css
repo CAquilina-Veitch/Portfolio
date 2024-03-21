@@ -208,6 +208,16 @@ p {
     no-repeat;
   background-size: cover;
 }
+.skills{
+    background: url("images/gradientpink.png")
+    no-repeat;
+  background-size: cover;
+}
+.projects {
+  background: url("images/gradientblue.png")
+    no-repeat;
+  background-size: cover;
+}
 
 .aboutme p {
   color: white;
@@ -395,6 +405,11 @@ p {
         width: 100%;
         /*max-width: 600px;
         Set a maximum width if needed  height: auto; /* Maintain the aspect ratio */
+    }
+    .content-slide iframe{
+        width:100%;
+        aspect-ratio:16/9;
+        height:auto;
     }
 
 
